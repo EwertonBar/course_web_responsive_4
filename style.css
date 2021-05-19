@@ -20,7 +20,7 @@ body{
 .paginação, .paginação th, .paginação td {
     border: 1px solid;
     border-collapse: collapse;
-    padding: 5px;
+    padding: 10px;
 }
 
 .paginação th, .paginação td:hover {
@@ -30,7 +30,7 @@ body{
 #foot {
     position: absolute;
     bottom: 10px;
-    font-size: 5px;
+    font-size: 15px;
     left: 50%;
     transform: translate(-50%,0%);
 }
