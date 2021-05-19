@@ -1,0 +1,36 @@
+.container{
+    width: 100vw;
+    height: 100vh;
+    background: #d4a0ec;
+    position: relative;
+}
+.box {
+    background-color: azure;
+    color: #002fff9f;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%,-50%);
+    margin: 0px;
+}
+body{
+    margin: 0px;
+}
+.paginação, .paginação th, .paginação td {
+    border: 1px solid;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+.paginação th, .paginação td:hover {
+    background-color: #d1d1d1;
+    cursor: pointer;
+}
+#foot {
+    position: absolute;
+    bottom: 10px;
+    font-size: 5px;
+    left: 50%;
+    transform: translate(-50%,0%);
+}
